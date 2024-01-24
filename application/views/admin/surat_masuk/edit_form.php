@@ -30,7 +30,7 @@
                     </div>
                     <div class="mb-3">
                         <label >TANGGAL TERIMA SURAT <code>*</code></label>
-                        <input class="form-control" type="date" name="tgl_terima" value="<?=$surat->tgl_surat;?>" placeholder="TANGGAL TERIMA SURAT" required />
+                        <input class="form-control" type="datetime-local" name="tgl_terima" value="<?=$surat->tgl_terima;?>" placeholder="TANGGAL TERIMA SURAT" required />
                     </div>
                     <div class="mb-3">
                         <label for="username">KETERANGAN <code>*</code></label>
@@ -41,7 +41,7 @@
                         <input type="file" class="form-control " id="inputGroupFile01" name="image">
                         <input class="form-control" type="hidden" name="old_image" value="<?=$surat->image;?>" required />
                     </div>
-                    <button class="btn btn-primary" type="submit"><i class="fas faplus"></i> Save Data</button>
+                    <button class="btn btn-primary" type="submit"><i class="fa fa-edit"></i> Edit Data</button>
                 </form>
             </div>
         </div>

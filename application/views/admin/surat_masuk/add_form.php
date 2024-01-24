@@ -30,7 +30,7 @@
                     </div>
                     <div class="mb-3">
                         <label >TANGGAL TERIMA SURAT <code>*</code></label>
-                        <input class="form-control" type="date" name="tgl_terima" placeholder="TANGGAL TERIMA SURAT" required />
+                        <input class="form-control" type="datetime-local" name="tgl_terima" placeholder="TANGGAL TERIMA SURAT" required />
                     </div>
                     <div class="mb-3">
                         <label for="username">KETERANGAN <code>*</code></label>
@@ -40,7 +40,7 @@
                         <label for="image">BERKAS SURAT (Photo)</label>
                         <input type="file" class="form-control" id="inputGroupFile01" name="image">
                     </div>
-                    <button class="btn btn-primary" value="upload" type="submit"><i class="fas faplus"></i>Save Data</button>
+                    <button class="btn btn-primary" value="upload" type="submit"><i class="fa fa-plus"></i> Save Data</button>
                 </form>
             </div>
         </div>

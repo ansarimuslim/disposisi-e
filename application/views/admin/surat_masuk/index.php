@@ -24,7 +24,7 @@
                                 <th>No Surat</th>
                                 <th>Perihal</th>
                                 <th>Keterangan</th>
-                                <th>Taggal Surat</th>
+                                <th>Tanggal Surat</th>
                                 <th>Surat</th>
                                 <th>Action</th>
                             </tr>
@@ -34,7 +34,7 @@
                             foreach ($surat as $suratdata) {
                                 echo "<tr>
                                     <td align='center'>$no</td>
-                                    <td align='center'>$suratdata->no_surat</td>
+                                    <td>$suratdata->no_surat</td>
                                     <td>$suratdata->perihal</td>
                                     <td>$suratdata->keterangan</td>
                                     <td align='center'>$suratdata->tgl_surat</td>

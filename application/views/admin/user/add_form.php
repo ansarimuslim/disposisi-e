@@ -27,7 +27,7 @@
                             <option value="admin">ADMIN</option>
                             <option value="sekretaris">SEKRETARIS</option>
                         </select>
-                    </div> <button class="btn btn-primary" type="submit"><i class="fas fa-plus"></i>Save</button>
+                    </div> <button class="btn btn-primary" type="submit"><i class="fa fa-plus"></i> Save Data</button>
                 </form>
             </div>
         </div>

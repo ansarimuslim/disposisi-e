@@ -24,7 +24,7 @@
                         <?php } else { ?>
                             <option value="sekretaris" selected>SEKRETARIS</option>
                         <?php } ?>
-                    </select> </div> <button class="btn btn-primary" type="submit"><i class="fas fa-plus"></i>Save</button>
+                    </select> </div> <button class="btn btn-primary" type="submit"><i class="fa fa-edit"></i> Edit Data</button>
                 </form>
             </div>
         </div>
